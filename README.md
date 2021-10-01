@@ -4,6 +4,8 @@
 1. Search form (mandatory fields)
     * Brand
     * Product Name
+    * ![SearchBrand1](https://user-images.githubusercontent.com/61400480/135600474-19220d3c-69c1-417b-b7f0-fec1a2268c7c.JPG)
+
 
 2. List of Groceries
     * Create a screen that display a list of 20 products by default, with the Product Name arranged in alphabetical order
