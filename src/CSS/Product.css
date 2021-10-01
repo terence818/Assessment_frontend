@@ -1,0 +1,25 @@
+.product-price::before {
+    content: " ";
+}
+
+.product-barcode {
+    color: gray;
+    font-weight: 700;
+    text-align: center;
+}
+
+.product-product {
+    color: gray;
+    font-weight: 700;
+    text-align: center;
+    min-height: 87px;
+}
+
+@media (min-width: 991px) {
+.product .product-image img {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+}
+}
