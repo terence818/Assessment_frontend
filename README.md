@@ -1,68 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Page 1
 
-In the project directory, you can run:
+1. Search form (mandatory fields)
+    * Brand
+    * Product Name
 
-### `npm start`
+2. List of Groceries
+    * Create a screen that display a list of 20 products by default, with the Product Name arranged in alphabetical order
+    * Options to sort grocery list by Brand or Product Name from A-Z and Z-A
+    * Each product in the grocery list should display the following:
+        * UPC12 Barcode
+        * Brand
+        * Product Name
+        * Edit button (that will lead to Page 2)
+    * Search result should include all possibilities based on keywords found in Brand or Product Name fields
+    * You may use GET or POST methods for the search
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Page 2
 
-### `npm test`
+1. Edit product form (mandatory fields)
+    * Brand (varchar)
+    * Product Name (varchar)
+    * UPC12 Number (bigint)
+    * Save button (saves changes made before returning to the Grocery List)
+    * Cancel button (brings you back to the Grocery List without saving)
+    * Prevent saving of empty Brand and Product Name fields
+    * Warn if invalid characters are entered into the fields (e.g. UPC12 field should accept only integers)
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+2. Editing a product
+    * Pre-populate the form with the product’s info (i.e. if you entered this page by clicking on the Edit button of Product A, the form should display the Brand, Product Name, and UPC12 Number of Product A)
+    * Saving should be done by the POST or PUT method only
+    * Grocery List should also reflect the changes made to the product
