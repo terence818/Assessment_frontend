@@ -42,7 +42,6 @@ class Products extends Component {
 
 
     // let sorted= this.props.productsList.
-    console.log(this.props.productsList);
     productsData = arrayCopy
 
       .filter(searchingFor(term))

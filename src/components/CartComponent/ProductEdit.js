@@ -139,7 +139,10 @@ class ProductEdit extends Component {
     }
 
     cancel() {
-        window.location.replace("/product")
+        // window.location.replace("/")
+        this.props.history.push({
+            pathname: "/",
+          });
     }
 
     render() {

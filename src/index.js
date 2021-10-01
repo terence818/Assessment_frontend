@@ -27,7 +27,7 @@ class MainIndex extends React.Component {
 
                     <Route
                         exact
-                        path="/Product"
+                        path="/"
                         component={Cart}
                     />
 
