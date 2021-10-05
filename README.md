@@ -6,6 +6,7 @@
     * ![SearchBrand1](https://user-images.githubusercontent.com/61400480/135600474-19220d3c-69c1-417b-b7f0-fec1a2268c7c.JPG)
     * ![SearchBrand2](https://user-images.githubusercontent.com/61400480/135600838-31c1c048-f255-4f15-8fde-9f21084e4e31.JPG)
     * ![SearchBrand3](https://user-images.githubusercontent.com/61400480/135600853-8ac295bb-2ae5-47ca-93a8-00468cd9cdc4.JPG)
+![HGC-2](https://user-images.githubusercontent.com/61400480/135970494-bb665f98-1a52-4b5c-8d26-dcad5a7f0f58.JPG)
 
     * Product Name
     * ![SearchProduct1](https://user-images.githubusercontent.com/61400480/135600898-70e75798-3321-4bdd-b3d2-65bcbb9b6e8c.JPG)
